@@ -1,0 +1,81 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Producción
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+*.egg
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Base de datos (archivos grandes)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+*.log
+
+# Archivos de configuración local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de backup
+*.bak
+*.backup
+*~

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: var(--font-poppins), 'Poppins', system-ui, -apple-system, sans-serif;
+  --color-primary: #006937;
+  --color-primary-dark: #064d5f;
+  --color-primary-light: #a4eab5;
+  --color-primary-soft: #cddf7d;
+  --color-secondary-sky: #caeaf2;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-family: var(--font-poppins), 'Poppins', system-ui, -apple-system, sans-serif !important;
+}
+
+.surface-card {
+  @apply rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow hover:shadow-md;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, theme('colors.primary.DEFAULT'), theme('colors.secondary.sky'));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+*:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-slate-50;
+}
+
+@layer base {
+  h1 {
+    @apply text-h1 text-slate-900;
+  }
+  h2 {
+    @apply text-h2 text-slate-900;
+  }
+  h3 {
+    @apply text-h3 text-slate-900;
+  }
+  p {
+    @apply text-body text-slate-700;
+  }
+  small {
+    @apply text-small text-slate-600;
+  }
+  strong {
+    @apply font-semibold text-slate-900;
+  }
+}
+
