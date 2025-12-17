@@ -102,7 +102,7 @@ export default function DashboardPage() {
   const highlights = useMemo(
     () => [
       {
-        label: 'Cobertura departamenDDDDDDDDDDtal',
+        label: 'Cobertura departamental',
         value: `${resumenDepartamento.municipios} municipios`,
         trend: 'Subregiones: 9',
         icon: <Activity className="h-5 w-5 text-primary" />
@@ -167,7 +167,7 @@ export default function DashboardPage() {
           <div className="lg:col-span-7">
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
               <div className="flex items-center justify-between">
-                <p className="text-sm font-semibold text-slate-900">Mapa interactivo (mock)</p>
+                <p className="text-sm font-semibold text-slate-900">Mapa interactivo</p>
                 <p className="text-xs text-slate-500">Vista referencial de Antioquia</p>
               </div>
               <div className="mt-3 h-[420px] rounded-xl bg-gradient-to-br from-secondary-sky via-white to-primary-light border border-slate-100 grid place-items-center text-sm text-primary-dark">
